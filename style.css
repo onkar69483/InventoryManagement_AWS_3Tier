@@ -5,10 +5,16 @@ body{
     margin: 0;
     justify-content: center;
     align-items: center;
+
 }
 
 .calculator{
-    
+    border: 2px solid black;
+    display: flex;
+    background-color:azure;
+    height: 600px;
+    width: 500px;
+    margin: 150px;
 }
 
 footer{
@@ -16,6 +22,10 @@ footer{
     align-items: center;
     justify-content: center;
     width: 100%;
+    margin-top: auto;
     font-size: 25px;
     background-color: aliceblue;
+
+    position: absolute;
+    bottom: 0;   
 }
