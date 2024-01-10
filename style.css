@@ -14,8 +14,8 @@ body{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color:azure;
-    height: 700px;
+    background-color:rgba(255, 166, 0, 0.521);
+    height: 750px;
     width: 520px;
     margin-top: 50px;
     margin-bottom: 150px;
@@ -54,7 +54,14 @@ body{
     height: 50px;
     width: 97.5px;
 }
-
+a{
+    text-decoration: none;
+}
+.casio{
+    margin-bottom: 20px;
+    font-family: 'Genos', sans-serif;
+    font-size: 25px;
+}
 
 
 footer{
