@@ -15,29 +15,45 @@ body{
     align-items: center;
     flex-direction: column;
     background-color:azure;
-    height: 600px;
-    width: 500px;
-    margin: 150px;
+    height: 700px;
+    width: 520px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+    border-radius: 20px;
 }
 
 .calculator .screen{
     margin: 40px auto;
     height: 150px;
     width: 450px;
-    background-color:midnightblue;
+    background-color:lightblue;
+    border: 5px solid rgb(5, 18, 2);
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 
 .calculator .buttons{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 20px;
     flex: 1 1 auto;
-}
-#clear,#backspace{
-    height: 40px;
-    width: 200px;
+    justify-content: center;
 }
 
+.calculator .buttons button{
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+#clear,#backspace{
+    height: 50px;
+    width: 215px;
+}
+
+#seven,#eight,#nine,#division,#four,#five,#six,#multiply,#one,#two,#three,#subtract,#zero,#point,#equal,#add{
+    height: 50px;
+    width: 97.5px;
+}
 
 
 
